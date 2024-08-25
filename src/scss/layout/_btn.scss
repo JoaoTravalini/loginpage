@@ -14,6 +14,12 @@
     &:disabled {
         cursor: no-drop;
         background: darken($laranja, 20%);
+        border: 2px solid darken($laranja, 20%);
+        color: $laranja, 20%;
+
+        &:hover{
+            color: darken($laranja, 20%);
+        }
     }
 
     &:hover{
