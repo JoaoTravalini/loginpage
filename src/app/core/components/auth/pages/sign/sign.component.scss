@@ -4,6 +4,7 @@
   img {
     width: 100px;
     margin-bottom: 40px;
+    z-index: 1;
   }
 
   form {
@@ -12,11 +13,13 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    z-index: 1;
 
     &,
     label,
     input {
       width: 100%;
+      z-index: 1;
     }
 
     label {
@@ -26,10 +29,12 @@
       border-radius: 30px;
       padding: 5px;
       border: 2px solid $branco;
+      z-index: 1;
 
       svg {
         width: 30px;
         padding-left: 8px;
+        z-index: 1;
       }
 
       input {
@@ -39,10 +44,97 @@
         padding-left: 8px;
         background: none;
         color: $branco;
+        z-index: 1;
         &::placeholder {
           color: $branco;
+          z-index: 1;
         }
       }
     }
+  }
+  
+  .leaves-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  .leaf {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: #9ac23c00;
+    border-radius: 50%;
+    animation: falling 8s ease-in-out infinite;
+    z-index: 0;
+
+    img{
+      width: 30px;
+      z-index: 0;
+    }
+  }
+
+  @keyframes falling {
+    0% {
+      transform: translateY(-10%);
+      z-index: 0;
+    }
+    100% {
+      transform: translateY(3220%);
+      z-index: 0;
+    }
+  }
+
+  .leaf:nth-child(1) {
+    left: 5%;
+    top: -5%;
+    animation-delay: 0.5s;
+    z-index: 0;
+  }
+  .leaf:nth-child(2) {
+    left: 25%;
+    top: -10%;
+    animation-delay: 2s;
+    z-index: 0;
+  }
+  .leaf:nth-child(3) {
+    left: 45%;
+    top: -15%;
+    animation-delay: 3.5s;
+    z-index: 0;
+  }
+  .leaf:nth-child(4) {
+    left: 65%;
+    top: -20%;
+    animation-delay: 1s;
+    z-index: 0;
+  }
+  .leaf:nth-child(5) {
+    left: 85%;
+    top: -25%;
+    animation-delay: 2.5s;
+    z-index: 0;
+  }
+  .leaf:nth-child(6) {
+    left: 95%;
+    top: -15%;
+    animation-delay: 2.5s;
+    z-index: 0;
+  }
+
+  .leaf:nth-child(7) {
+    left: 55%;
+    top: -15%;
+    animation-delay: 1.5s;
+    z-index: 0;
+  }
+
+  .leaf:nth-child(8) {
+    left: 20%;
+    top: -15%;
+    animation-delay: 1.0s;
+    z-index: 0;
   }
 }

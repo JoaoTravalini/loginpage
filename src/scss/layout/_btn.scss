@@ -8,9 +8,24 @@
     color: $branco;
     font-size: 18px;
     cursor: pointer;
+
+    transition: 0.5s;
   
     &:disabled {
       cursor: no-drop;
-      background: darken($vermelho, 20%);
+      background: darken($laranja, 20%);
+
+      &:hover{
+        color: darken($laranja, 20%);
+        border: 2px solid darken($laranja, 20%);
+      }
+    }
+
+    &:hover{
+      background: none;
+      border: 2px solid $laranja;
+      color: $laranja;
+      transform: scale(1.03);
+      
     }
   }
