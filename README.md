@@ -1,27 +1,19 @@
-# Loginpage
+# **📌 Descrição do Projeto - Login Page**  
+Este projeto consiste em uma Página de login, utilizando **Angular** e **TypeScript**. O objetivo é praticar o uso do framework e as respectivas linguagens utilizadas. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+# **Obs:**
+As folhas caindo no background foram feitas com apenas duas imagens e animadas utilizando css
 
-## Development server
+### 🎥 **Vídeo para visualização do projeto:**  
+[Assista no Google Drive](https://drive.google.com/file/d/13BfyTgHKl9UJLliVg46s5Cp5J4Xsl1cx/view?usp=sharing)  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠 **Tecnologias Utilizadas**  
+- Angular  
+- HTML  
+- CSS   
+- TypeScript  
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🚀 **Como executar o projeto**  
+1. Clone o repositório 
+2. Execute npm install no terminal do projeto
+3. Execute ng s no terminal
